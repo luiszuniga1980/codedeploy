@@ -1,0 +1,9 @@
+version: 0.0
+os: windows
+files:
+  - source: /tests
+    destination: C:\Epsilon\Fusion\Automation
+hooks:
+  AfterInstall:
+    - location: afterinstall.bat
+      timeout: 300
